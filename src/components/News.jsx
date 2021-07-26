@@ -107,7 +107,7 @@ const News = () => {
                           </p>
                           <p>
 
-                            AWS Amplify is a full-stack, serverless  application hosting console. It provides git-based workflow and the ability to get your web or mobile application up and hosted in no time. Visit the AWS Amplify documentation for a more thorough dive : https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html.
+                            AWS Amplify is a full-stack, serverless  application hosting console. It provides git-based workflow and the ability to get your web or mobile application up and hosted in no time. Visit the AWS Amplify documentation for a more thorough dive : <a href='https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html'>AWS Docs</a>.
                           </p>
                           <p>
                             As a React developer, I turned to Amplify to launch my first react application.  I was once again impressed with the AWS console's user-friendly design and implementation. Nothing is stopping a junior developer from launching their portfolio with Amplify. Do not be intimidated by the technical jargon if you are new to development.  In the rest of the post we will outline how you can get your first application launched with AWS Amplify.
