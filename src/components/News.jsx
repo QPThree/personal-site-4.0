@@ -106,11 +106,13 @@ const News = () => {
                             Get your application launched in minutes with the help of AWS Amplify.
                           </p>
                           <p>
-
                             AWS Amplify is a full-stack, serverless  application hosting console. It provides git-based workflow and the ability to get your web or mobile application up and hosted in no time. Visit the AWS Amplify documentation for a more thorough dive : <a href='https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html'>AWS Docs</a>.
                           </p>
                           <p>
-                            As a React developer, I turned to Amplify to launch my first react application.  I was once again impressed with the AWS console's user-friendly design and implementation. Nothing is stopping a junior developer from launching their portfolio with Amplify. Do not be intimidated by the technical jargon if you are new to development.  In the rest of the post we will outline how you can get your first application launched with AWS Amplify.
+                            As a React developer, I turned to Amplify to launch my first react application.  I was impressed with the AWS console's user-friendly design and structure. To junior developer: get your nose in AWS and start tinkering around. This is not out of your league. A great wy to get started is by hosting your portfolio with AWS. Do not be intimidated by any technical jargon or terms.  
+                            <br/>
+                            <br/>
+                            Let's look at how you can get your application launched with AWS Amplify.
                           </p>
                           <div className="quotebox">
                             <div className="icon">
@@ -130,7 +132,7 @@ const News = () => {
                             <br></br>
                             a. AWS Account
                             <br></br>
-                            b. React application
+                            b. Pre-Built React application
                             <br></br>
                             c. Github Account (or other repository service)
                             <br></br>
