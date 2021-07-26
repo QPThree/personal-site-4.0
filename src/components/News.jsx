@@ -194,7 +194,7 @@ const News = () => {
                             </ol>
                           </p>
                           <p>
-
+                            ~ QP3
                           </p>
                         </div>
                         {/* END DESCRIPTION */}
