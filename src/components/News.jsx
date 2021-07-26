@@ -53,7 +53,7 @@ const News = () => {
                 <div className="extra">
                   <p className="date">
                     By <a href="#">Quentin P Young III</a>
-                    <span>TBD</span>
+                    <span>AUG 2021</span>
                   </p>
                 </div>
                 {/* END EXTRA */}
@@ -91,7 +91,7 @@ const News = () => {
                       <div className="details">
                         <div className="extra">
                           <p className="date">
-                            By <a href="#">Quentin P Young III</a>
+                            By <a href="#">Quentin P Young</a>
                             <span>AUG 2021</span>
                           </p>
                         </div>
