@@ -136,7 +136,7 @@ const News = () => {
                             <br></br>
                             c. Github Account (or other repository service)
                             <br></br>
-                            d. Repo containing application files
+                            d. Repo connected to application in 'b.'
                             <br></br>
                           </p>
                           <p>
