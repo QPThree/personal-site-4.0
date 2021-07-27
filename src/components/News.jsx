@@ -155,7 +155,9 @@ const News = () => {
                                 ></div>
                               </div>
                               <li>Select Connect App</li>
+                              <br />
                               <li>In this example, our application is hosted in a GitHub repo. Select Github and Continue</li>
+                              <br/>
                               <li>Here you may need to connect your Github account to give AWS it's required permissions. Once connected, select your repository that contains your application.</li>
                               <div className="image">
                                 <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
@@ -175,6 +177,7 @@ const News = () => {
                                 a)The default build and test settings should be sufficient but can be modified.
                               </p>
                               <li>Select Next</li>
+                              <br/>
                               <li>We are finally greeted with the Review Page.  Once you have looked things over, Save and Deploy!</li>
                               <li>AWS will do it's thing. You will be able to monitor it's process through the Provision -- Build -- Deploy -- Verify graphic displayed.</li>
                               <p>
