@@ -179,6 +179,7 @@ const News = () => {
                               <li>Select Next</li>
                               <br/>
                               <li>We are finally greeted with the Review Page.  Once you have looked things over, Save and Deploy!</li>
+                              <br />
                               <li>AWS will do it's thing. You will be able to monitor it's process through the Provision -- Build -- Deploy -- Verify graphic displayed.</li>
                               <p>
                                 a) When finished, all 4 stops will have green check marks.
