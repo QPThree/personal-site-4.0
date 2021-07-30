@@ -103,16 +103,16 @@ const News = () => {
                       <div className="main_content ">
                         <div className="descriptions">
                           <p className="bigger">
-                            Get your application launched in minutes with the help of AWS Amplify.
+                            Get your application launched in minutes with AWS Amplify.
                           </p>
                           <p>
-                            AWS Amplify is a full-stack, serverless  application hosting console. It provides git-based workflow and the ability to get your web or mobile application up and hosted in no time. Visit the AWS Amplify documentation for a more thorough dive : <a href='https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html'>AWS Docs</a>.
+                            AWS Amplify is a full-stack, serverless application hosting console. It provides git-based workflow and the ability to get your web or mobile application up and hosted in no time. Visit the AWS Amplify documentation for a more thorough dive : <a href='https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html'>AWS Docs</a>.
                           </p>
                           <p>
-                            As a React developer, I turned to Amplify to launch my first react application.  I was impressed with the AWS console's user-friendly design and structure. For other junior developers: get your nose in AWS and start tinkering around. This is not out of your league. A great way to get started is by hosting your portfolio with AWS. Do not be intimidated by any technical jargon or terms.  
+                            As an apprentice React developer, I turned to Amplify to launch my first react application. I recently completed the AWS Cloud Practitioner course and exam, and wanted to get my hands on some of the features I had been learning about. I felt welcomed by the AWS console's user-friendly design and structure. For other junior developers: get your nose in AWS or the cloud and start tinkering around. These tools are not out of your comprehension. A great way to get started is by hosting your portfolio with AWS. Do not be intimidated by technical jargon or terms. 
                             <br/>
                             <br/>
-                            Let's look at how you can get your application launched with AWS Amplify.
+                            Let's look at how you can go about getting your application launched with AWS Amplify.
                           </p>
                           <div className="quotebox">
                             <div className="icon">
@@ -136,7 +136,7 @@ const News = () => {
                             <br></br>
                             c. Github Account (or other repository service)
                             <br></br>
-                            d. Repo connected to application in 'b.'
+                            d. Repo connected to application in requirement 'b.'
                             <br></br>
                           </p>
                           <p>
