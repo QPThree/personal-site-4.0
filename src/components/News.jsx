@@ -30,7 +30,7 @@ const News = () => {
           <div className="title_flex">
             <div className="left">
               <span>Articles</span>
-              <h3>Latest Thoughts</h3>
+              <h3>Recent Posts</h3>
             </div>
           </div>
         </div>
@@ -52,14 +52,14 @@ const News = () => {
               <div className="details">
                 <div className="extra">
                   <p className="date">
-                    By <a href="#">TBA</a>
-                    <span>TBD</span>
+                    By <a href="#">Quentin P Young III</a>
+                    <span>AUG 2021</span>
                   </p>
                 </div>
                 {/* END EXTRA */}
 
                 <h3 className="title" onClick={toggleModalOne}>
-                  Coming Soon
+                  Launching with Amplify
                 </h3>
                 <div className="tokyo_tm_read_more">
                   <a onClick={toggleModalOne}>
@@ -86,38 +86,33 @@ const News = () => {
                   {/* END CLOSE ICON */}
                   <div className="box_inner">
                     <div className="description_wrap scrollable">
-                      <div className="image">
-                        <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
-                        <div
-                          className="main"
-                          style={{
-                            backgroundImage: "url(assets/img/news/1.jpg)",
-                          }}
-                        ></div>
-                      </div>
+                     
                       {/* END IMAGE */}
                       <div className="details">
                         <div className="extra">
-                        <p className="date">
-                            By <a href="#">TBA</a>
-                            <span>TBD</span>
+                          <p className="date">
+                            By <a href="#">Quentin P Young</a>
+                            <span>AUG 2021</span>
                           </p>
                         </div>
                         <h3 className="title">
-                          Coming Soon
+                          Launching with Amplify
                         </h3>
                       </div>
                       {/* END DETAILS */}
                       <div className="main_content ">
                         <div className="descriptions">
                           <p className="bigger">
-                            Paragraph 1
+                            Get your application launched in minutes with AWS Amplify.
                           </p>
                           <p>
-                           
+                            AWS Amplify is a full-stack, serverless application hosting console. It provides git-based workflow and the ability to get your web or mobile application up and hosted in no time. Visit the AWS Amplify documentation for a more thorough dive : <a href='https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html'>AWS Docs</a>.
                           </p>
                           <p>
-                            Paragraph 2
+                            As an apprentice React developer, I turned to Amplify to launch my first react application. I recently completed the AWS Cloud Practitioner course and exam, and wanted to get my hands on some of the features I had been learning about. I felt welcomed by the AWS console's user-friendly design and structure. For other junior developers: get your nose in AWS or the cloud and start tinkering around. These tools are not out of your comprehension. A great way to get started is by hosting your portfolio with AWS. Do not be intimidated by technical jargon or terms. 
+                            <br/>
+                            <br/>
+                            Let's look at how you can go about getting your application launched with AWS Amplify.
                           </p>
                           <div className="quotebox">
                             <div className="icon">
@@ -128,15 +123,84 @@ const News = () => {
                               />
                             </div>
                             <p>
-                              Paragraph 3
+                              AWS Amplify Console is the control center for fullstack web and mobile application deployments in AWS
                             </p>
                           </div>
                           {/* END QUOTEBOX */}
                           <p>
-                          
+                            You'll Need:
+                            <br></br>
+                            a. AWS Account
+                            <br></br>
+                            b. Pre-Built React application
+                            <br></br>
+                            c. Github Account (or other repository service)
+                            <br></br>
+                            d. Repo connected to application in requirement 'b.'
+                            <br></br>
                           </p>
                           <p>
-                            
+                            <ol>
+                              <li>The first thing we will do is navigate to the AWS Management Console and locate our Amplify portal.</li>
+                              <p>a) Services Dropdown --> Front End Web & Mobile --> AWS Amplify
+                                <br></br>
+                                b) Once selected, We are greeted with All Apps that we have launched with Amplify. If this is your first Amplify app, it should be blank.</p>
+                              <div className="image">
+                                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                                <div
+                                  className="main"
+                                  style={{
+                                    backgroundImage: "url(assets/img/news/first/1.jpg)",
+                                  }}
+                                ></div>
+                              </div>
+                              <li>Select Connect App</li>
+                              <br />
+                              <li>In this example, our application is hosted in a GitHub repo. Select Github and Continue</li>
+                              <br/>
+                              <li>Here you may need to connect your Github account to give AWS it's required permissions. Once connected, select your repository that contains your application.</li>
+                              <div className="image">
+                                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                                <div
+                                  className="main"
+                                  style={{
+                                    backgroundImage: "url(assets/img/news/first/2.jpg)",
+                                  }}
+                                ></div>
+                              </div>
+                              <li>Select the branch you wish to deploy and then Next</li>
+                              <p>
+                                a) This will likely be your main branch. In a future post we will look at how to use development branches within amplify.
+                              </p>
+                              <li>Name your Application</li>
+                              <p>
+                                a)The default build and test settings should be sufficient but can be modified.
+                              </p>
+                              <li>Select Next</li>
+                              <br/>
+                              <li>We are finally greeted with the Review Page.  Once you have looked things over, Save and Deploy!</li>
+                              <br />
+                              <li>AWS will do it's thing. You will be able to monitor it's process through the Provision -- Build -- Deploy -- Verify graphic displayed.</li>
+                              <p>
+                                a) When finished, all 4 stops will have green check marks.
+                              </p>
+                              <div className="image">
+                                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                                <div
+                                  className="main"
+                                  style={{
+                                    backgroundImage: "url(assets/img/news/first/3.jpg)",
+                                  }}
+                                ></div>
+                              </div>
+                              <li>Congratulations! You have successfully deployed your first application with AWS Amplify. </li>
+                              <p>
+                                a) You can view the site by going to Amplify --> All Apps --> Application you wish to view --> Selecting the link underneath your applications image.
+                              </p>
+                            </ol>
+                          </p>
+                          <p>
+                            ~ QP3
                           </p>
                         </div>
                         {/* END DESCRIPTION */}
@@ -165,7 +229,7 @@ const News = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/news/2.jpg)",
+                    backgroundImage: "url(assets/img/news/comingsoon.jpg)",
                   }}
                 ></div>
               </div>
@@ -211,7 +275,7 @@ const News = () => {
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/news/2.jpg)",
+                            backgroundImage: "url(assets/img/news/comingsoon.jpg)",
                           }}
                         ></div>
                       </div>
@@ -231,13 +295,13 @@ const News = () => {
                       <div className="main_content ">
                         <div className="descriptions">
                           <p className="bigger">
-                            
+
                           </p>
                           <p>
-                            
+
                           </p>
                           <p>
-                            
+
                           </p>
                           <div className="quotebox">
                             <div className="icon">
@@ -248,15 +312,15 @@ const News = () => {
                               />
                             </div>
                             <p>
-                              
+
                             </p>
                           </div>
                           {/* END QUOTEBOX */}
                           <p>
-                            
+
                           </p>
                           <p>
-                            
+
                           </p>
                         </div>
                         <div className="news_share">
@@ -284,7 +348,7 @@ const News = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/news/3.jpg)",
+                    backgroundImage: "url(assets/img/news/comingsoon.jpg)",
                   }}
                 ></div>
               </div>
@@ -329,7 +393,7 @@ const News = () => {
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/news/3.jpg)",
+                            backgroundImage: "url(assets/img/news/comingsoon.jpg)",
                           }}
                         ></div>
                       </div>
@@ -347,13 +411,13 @@ const News = () => {
                       <div className="main_content ">
                         <div className="descriptions">
                           <p className="bigger">
-                            
+
                           </p>
                           <p>
-                            
+
                           </p>
                           <p>
-                            
+
                           </p>
                           <div className="quotebox">
                             <div className="icon">
@@ -364,15 +428,15 @@ const News = () => {
                               />
                             </div>
                             <p>
-                              
+
                             </p>
                           </div>
                           {/* END QUOTEBOX */}
                           <p>
-                           
+
                           </p>
                           <p>
-                            
+
                           </p>
                         </div>
                         <div className="news_share">
@@ -398,7 +462,7 @@ const News = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/news/4.jpg)",
+                    backgroundImage: "url(assets/img/news/comingsoon.jpg)",
                   }}
                 ></div>
               </div>
@@ -443,7 +507,7 @@ const News = () => {
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/news/4.jpg)",
+                            backgroundImage: "url(assets/img/news/comingsoon.jpg)",
                           }}
                         ></div>
                       </div>
@@ -465,13 +529,13 @@ const News = () => {
                       <div className="main_content ">
                         <div className="descriptions">
                           <p className="bigger">
-                            
+
                           </p>
                           <p>
-                           
+
                           </p>
                           <p>
-                            
+
                           </p>
                           <div className="quotebox">
                             <div className="icon">
@@ -482,15 +546,15 @@ const News = () => {
                               />
                             </div>
                             <p>
-                              
+
                             </p>
                           </div>
                           {/* END QUOTEBOX */}
                           <p>
-                            
+
                           </p>
                           <p>
-                            
+
                           </p>
                         </div>
                         <div className="news_share">
