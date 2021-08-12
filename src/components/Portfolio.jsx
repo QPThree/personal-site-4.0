@@ -29,6 +29,18 @@ const Portfolio = () => {
                 <SRLWrapper>
                   <TabPanel>
                     <ul className="portfolio_list">
+                    <li>
+                        <div className="inner">
+                          <div className="entry tokyo_tm_portfolio_animation_wrap">
+                            <a href="assets/img/portfolio/6.jpg">
+                              <img
+                                src="assets/img/portfolio/6.jpg"
+                                alt="Portfolio"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                      </li>
                       <li>
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
@@ -133,6 +145,18 @@ const Portfolio = () => {
 
                   <TabPanel>
                     <ul className="portfolio_list">
+                    <li>
+                        <div className="inner">
+                          <div className="entry tokyo_tm_portfolio_animation_wrap">
+                            <a href="assets/img/portfolio/6.jpg">
+                              <img
+                                src="assets/img/portfolio/6.jpg"
+                                alt="Portfolio"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                      </li>
                       <li>
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
