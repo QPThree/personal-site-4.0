@@ -29,13 +29,25 @@ const Portfolio = () => {
                 <SRLWrapper>
                   <TabPanel>
                     <ul className="portfolio_list">
+                    <li>
+                        <div className="inner">
+                          <div className="entry tokyo_tm_portfolio_animation_wrap">
+                            <a href="assets/img/portfolio/6.jpg">
+                              <img
+                                src="assets/img/portfolio/6.jpg"
+                                alt="City-Explorer"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                      </li>
                       <li>
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
                             <a href="assets/img/portfolio/5.jpg">
                               <img
                                 src="assets/img/portfolio/5.jpg"
-                                alt="Portfolio"
+                                alt="Fantascribe"
                               />
                             </a>
                           </div>
@@ -48,7 +60,7 @@ const Portfolio = () => {
                             <a href="assets/img/portfolio/2.jpg">
                               <img
                                 src="assets/img/portfolio/2.jpg"
-                                alt="portfolio"
+                                alt="Portfolio"
                               />
                             </a>
                           </div>
@@ -61,7 +73,7 @@ const Portfolio = () => {
                             <a href="assets/img/portfolio/4.jpg">
                               <img
                                 src="assets/img/portfolio/4.jpg"
-                                alt="portfolio"
+                                alt="Store Front"
                               />
                             </a>
                           </div>
@@ -74,7 +86,7 @@ const Portfolio = () => {
                             <a href="assets/img/portfolio/3.jpg">
                               <img
                                 src="assets/img/portfolio/3.jpg"
-                                alt="portfolio"
+                                alt="Gitstop"
                               />
                             </a>
                           </div>
@@ -93,7 +105,7 @@ const Portfolio = () => {
                             <a href="assets/img/portfolio/3.jpg">
                               <img
                                 src="assets/img/portfolio/3.jpg"
-                                alt="Ui/Ux"
+                                alt="Gitstop"
                               />
                             </a>
                           </div>
@@ -106,7 +118,7 @@ const Portfolio = () => {
                             <a href="assets/img/portfolio/4.jpg">
                               <img
                                 src="assets/img/portfolio/4.jpg"
-                                alt="Ui/Ux"
+                                alt="Store Front"
                               />
                             </a>
                           </div>
@@ -119,7 +131,7 @@ const Portfolio = () => {
                             <a href="assets/img/portfolio/5.jpg">
                               <img
                                 src="assets/img/portfolio/5.jpg"
-                                alt="Ui/Ux"
+                                alt="Fantascribe"
                               />
                             </a>
                           </div>
@@ -133,13 +145,25 @@ const Portfolio = () => {
 
                   <TabPanel>
                     <ul className="portfolio_list">
+                    <li>
+                        <div className="inner">
+                          <div className="entry tokyo_tm_portfolio_animation_wrap">
+                            <a href="assets/img/portfolio/6.jpg">
+                              <img
+                                src="assets/img/portfolio/6.jpg"
+                                alt="City Explorer"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                      </li>
                       <li>
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
                             <a href="assets/img/portfolio/2.jpg">
                               <img
                                 src="assets/img/portfolio/2.jpg"
-                                alt="Website"
+                                alt="Portfolio"
                               />
                             </a>
                           </div>
