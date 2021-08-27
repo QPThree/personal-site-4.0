@@ -32,6 +32,18 @@ const Portfolio = () => {
                     <li>
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
+                            <a href="assets/img/portfolio/7.jpg">
+                              <img
+                                src="assets/img/portfolio/7.jpg"
+                                alt="Book-Self"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="inner">
+                          <div className="entry tokyo_tm_portfolio_animation_wrap">
                             <a href="assets/img/portfolio/6.jpg">
                               <img
                                 src="assets/img/portfolio/6.jpg"
@@ -124,7 +136,7 @@ const Portfolio = () => {
                           </div>
                         </div>
                       </li>
-                       {/* END Salmon Cookies */}
+                      {/* END Salmon Cookies */}
                       <li>
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
@@ -145,7 +157,19 @@ const Portfolio = () => {
 
                   <TabPanel>
                     <ul className="portfolio_list">
-                    <li>
+                      <li>
+                        <div className="inner">
+                          <div className="entry tokyo_tm_portfolio_animation_wrap">
+                            <a href="assets/img/portfolio/7.jpg">
+                              <img
+                                src="assets/img/portfolio/7.jpg"
+                                alt="Book-Self"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
                             <a href="assets/img/portfolio/6.jpg">
