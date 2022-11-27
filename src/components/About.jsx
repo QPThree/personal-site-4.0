@@ -59,7 +59,7 @@ const About = () => {
                 <li>
                   <p>
                     <span>Phone:</span>
-                    <a href="tel:+770221770505">802-345-1540</a>
+                    <a href="tel:+8023451540">802-345-1540</a>
                   </p>
                 </li>
                 <li>
@@ -120,11 +120,11 @@ const About = () => {
                     <div className="progress_inner" data-value="80">
                       <span>
                         <span className="label">React.js</span>
-                        <span className="number">80%</span>
+                        <span className="number">90%</span>
                       </span>
                       <div className="background">
                         <div className="bar">
-                        <div className="bar_in" style={{width: 80 + '%'}}></div>
+                        <div className="bar_in" style={{width: 90 + '%'}}></div>
                         </div>
                       </div>
                     </div>
@@ -151,7 +151,7 @@ const About = () => {
                   </div>
                   {/* END TITLE */}
                   <div className="tokyo_progress">
-                    <div className="progress_inner" data-value="95">
+                    <div className="progress_inner" data-value="90">
                       <span>
                         <span className="label">Git</span>
                         <span className="number">90%</span>
@@ -165,12 +165,12 @@ const About = () => {
 
                     <div className="progress_inner" data-value="90">
                       <span>
-                        <span className="label">AWS</span>
-                        <span className="number">40%</span>
+                        <span className="label">AWS Services</span>
+                        <span className="number">90%</span>
                       </span>
                       <div className="background">
                         <div className="bar">
-                        <div className="bar_in" style={{width: 40 + '%'}}></div>
+                        <div className="bar_in" style={{width: 90 + '%'}}></div>
                         </div>
                       </div>
                     </div>
