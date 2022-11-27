@@ -32,6 +32,18 @@ const Portfolio = () => {
                     <li>
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
+                            <a href="assets/img/portfolio/8.jpeg">
+                              <img
+                                src="assets/img/portfolio/8.jpeg"
+                                alt="Skikend"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                      </li>
+                    <li>
+                        <div className="inner">
+                          <div className="entry tokyo_tm_portfolio_animation_wrap">
                             <a href="assets/img/portfolio/7.jpg">
                               <img
                                 src="assets/img/portfolio/7.jpg"
@@ -157,6 +169,18 @@ const Portfolio = () => {
 
                   <TabPanel>
                     <ul className="portfolio_list">
+                    <li>
+                        <div className="inner">
+                          <div className="entry tokyo_tm_portfolio_animation_wrap">
+                            <a href="assets/img/portfolio/8.jpeg">
+                              <img
+                                src="assets/img/portfolio/8.jpeg"
+                                alt="Skikend"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                      </li>
                       <li>
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
