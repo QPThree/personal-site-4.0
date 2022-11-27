@@ -32,9 +32,9 @@ const Portfolio = () => {
                     <li>
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
-                            <a href="assets/img/portfolio/8.jpeg">
+                            <a href="assets/img/portfolio/8.jpg">
                               <img
-                                src="assets/img/portfolio/8.jpeg"
+                                src="assets/img/portfolio/8.jpg"
                                 alt="Skikend"
                               />
                             </a>
@@ -172,9 +172,9 @@ const Portfolio = () => {
                     <li>
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
-                            <a href="assets/img/portfolio/8.jpeg">
+                            <a href="assets/img/portfolio/8.jpg">
                               <img
-                                src="assets/img/portfolio/8.jpeg"
+                                src="assets/img/portfolio/8.jpg"
                                 alt="Skikend"
                               />
                             </a>
